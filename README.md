@@ -13,9 +13,7 @@ npm (Node Package Manager)
 Installation
 Clone the repository:
 
-sh
-Copy code
-git clone https://github.com/your-username/todo-list-manager.git
+
 cd todo-list-manager
 Install the dependencies:
 
