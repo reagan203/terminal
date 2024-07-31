@@ -10,6 +10,8 @@ import chalkAnimation from 'chalk-animation';
 import figlet from 'figlet';
 import { createSpinner } from 'nanospinner';
 
+// Define the path to the to-do list file
+const todoFile = path.join(process.env.HOME || process.env.USERPROFILE, 'todo.json');
 
 // Load to-dos from the file
 const loadTodos = () => {
